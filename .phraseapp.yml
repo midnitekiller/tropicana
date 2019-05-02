@@ -1,0 +1,38 @@
+phraseapp:
+  access_token: b5a4cb15cdc12277c0909939844b52dae358100626a029e8502ec2669178ca2e
+  file_format: xml
+  project_id: 51c4ef8a73002e4abe17b5f343d416a0
+  pull:
+    targets:
+    - file: ./app/src/main/res/values-ar-rSA/strings.xml
+      params: {locale_id: 754825a5efb64fbde91302d9beee0a95}
+    - file: ./app/src/main/res/values-de-rDE/strings.xml
+      params: {locale_id: ce920690e08820ec35633f841653ee6f}
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: 954de4bc809aabbee96042a2278b6a5a}
+    - file: ./app/src/main/res/values-fr-rFR/strings.xml
+      params: {locale_id: 90d22899e610c797f99565adc7808852}
+    - file: ./app/src/main/res/values-ko-rKR/strings.xml
+      params: {locale_id: 9e53c4c147f61895400895894ac1c98a}
+    - file: ./app/src/main/res/values-ru-rRU/strings.xml
+      params: {locale_id: 264a306d25bb959c80b5d9a7f03664cd}
+    - file: ./app/src/main/res/values-zh-rCN/strings.xml
+      params: {locale_id: 3cb1658fd8deba1aa4398f8616815f44}
+    - file: ./app/src/main/res/values-ar-rSA/strings.xml
+      params: {locale_id: 754825a5efb64fbde91302d9beee0a95}
+    - file: ./app/src/main/res/values-de-rDE/strings.xml
+      params: {locale_id: ce920690e08820ec35633f841653ee6f}
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: 954de4bc809aabbee96042a2278b6a5a}
+    - file: ./app/src/main/res/values-fr-rFR/strings.xml
+      params: {locale_id: 90d22899e610c797f99565adc7808852}
+    - file: ./app/src/main/res/values-ko-rKR/strings.xml
+      params: {locale_id: 9e53c4c147f61895400895894ac1c98a}
+    - file: ./app/src/main/res/values-ru-rRU/strings.xml
+      params: {locale_id: 264a306d25bb959c80b5d9a7f03664cd}
+    - file: ./app/src/main/res/values-zh-rCN/strings.xml
+      params: {locale_id: 3cb1658fd8deba1aa4398f8616815f44}
+  push:
+    sources:
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: 954de4bc809aabbee96042a2278b6a5a}
